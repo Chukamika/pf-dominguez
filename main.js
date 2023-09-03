@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const apiKey = 'f4430673334e8bb915cc2073e26428c1';
+  const apiKey = 'B6tdYzugb2n6rQnuAz8DReaFVPTpnQ';
 
   // URL base de la API de ExchangeRatesAPI.io
-  const apiUrl = `http://api.exchangeratesapi.io/v1/latest?access_key=${apiKey}`;
+  const apiUrl = `https://www.amdoren.com/api/currency.php?api_key=${apiKey}`;
 
   // Elementos del DOM
   const btnConvertir = document.getElementById("btnConvertir");
